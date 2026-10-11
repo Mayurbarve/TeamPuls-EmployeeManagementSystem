@@ -2,6 +2,8 @@
 
 TeamPulse is a full-stack employee activity monitoring project with a Spring Boot API, React dashboard, and Python desktop agent. It supports local H2 or MySQL development and a Render deployment. This source copy does not include the upstream Git history or remote.
 
+![img.png](img.png)
+![img_2.png](img_2.png)
 ## Project layout
 
 - `backend/` — Spring Boot REST API (Java 17, Maven)
