@@ -1,0 +1,29 @@
+TeamPulse Python Agent setup
+============================
+
+Requirements
+- Python 3.10 or newer
+- A TeamPulse backend URL
+- An agent API key provided privately by your TeamPulse administrator
+
+1. Extract teampulse-python-agent.zip into a folder.
+2. Open a terminal in the extracted folder.
+3. Create and activate a virtual environment:
+
+   python -m venv .venv
+   macOS/Linux: source .venv/bin/activate
+   Windows: .venv\Scripts\activate
+
+4. Install agent packages and start the app:
+
+   python -m pip install -r requirements.txt
+   python agent.py
+
+5. Enter the backend URL, agent API key, and employee ID in the setup window.
+   The app verifies the employee with the backend before monitoring starts.
+
+The API key is stored in config.json beside the agent files. Keep this file
+private and do not commit it to GitHub. The agent reports activity timing,
+active application/window names on Windows, and suspicious activity flags. It
+does not save typed text or pointer coordinates. Use “Stop agent and exit” to
+stop monitoring.

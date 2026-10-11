@@ -1,0 +1,21 @@
+# Java / Maven
+**/target/
+backend/data/
+*.class
+.env
+agent/config.json
+agent/__pycache__/
+agent/.venv/
+agent/build/
+agent/dist/
+agent/*.spec.local
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store

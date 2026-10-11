@@ -1,0 +1,13 @@
+{
+  "backend_url": "https://YOUR-TEAM-PULSE-API",
+  "activity_api_key": "ASK-YOUR-ADMINISTRATOR",
+  "send_interval_seconds": 60,
+  "idle_threshold_seconds": 300,
+  "idle_logout_seconds": 300,
+  "suspicious_key_threshold": 500,
+  "logout_action": "none",
+  "suspicious_flag_limit": 4,
+  "run_at_startup": false,
+  "employee_id": "",
+  "remember_me": false
+}
